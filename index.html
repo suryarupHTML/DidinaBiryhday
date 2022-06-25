@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>DIDINA'S BIRTHDAT</title>
+        <audio id="s1" src="Happy Birthday Song Card.mp3"></audio>
+        <style>
+            h3 {
+                font-weight: bolder;
+                font-size: larger;
+                font-family: cursive;
+                color: rgb(236, 194, 131);
+            }
+            h1 {
+                font-family: cursive;
+            }
+            body {
+                text-align: center;
+                background-color: bisque;
+            }
+            img {
+                size:inherit;
+            }
+            #song {
+                background-color: rgb(131, 46, 15);
+                border: 5px;
+                border-color: rgb(246, 143, 70);
+                border-style: groove;
+                color: rgb(245, 211, 145);
+                font-weight: bolder;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <center>
+                <section style="background-image: linear-gradient( to right, red, brown, red);">
+                    <br>
+                    <h1 style="background-color: rgb(132, 40, 7); color:rgb(249, 192, 93);">😊😊HAPPY BIRTHDAY DIDINA😊😊</h1>
+                    <br><br>
+                    <img src="https://thumbs.dreamstime.com/b/cartoon-granny-celebrating-birthday-grand-children-vector-design-cartoon-granny-celebrating-birthday-grand-children-101704692.jpg" width="400" height="400">
+                    <br><br>
+                    <h3>Happy Birthday Didina!!</h3>
+                    <h3>I gift you all my best wishes and love❤️❤️❤️</h3> 
+                    <h3>Please accept my hearty regsrds and bless me for my future successes!!</h3>
+                    <h3>Yoy are the apple of my eye and you always reside in my heart.</h3>
+                    <h3>Enjoy this wonderful and amazing day a lot.</h3>
+                    <h3>Again and again and again, A VERY HAPPY BIRTHDAT TO YOU🎂🎂🎂</h3>
+                    <br>
+                    <button id="song" onclick="song()">CLICK IT!</button>
+                    <br><br>
+                </section>
+            </center>
+        </div>
+        <script>
+            function song() {
+                document.getElementById("s1").play();
+            }
+        </script>
+    </body>
+</html>
